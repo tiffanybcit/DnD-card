@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lab 5</title>
+    <meta charset="utf-8"/>
+    <style>
+
+      
+    </style>
+  </head>
+  <body>
+
+    <script>
+     
+        function DND() {
+          
+          var body = document.body;
+
+          document.head = head;
+          
+          function addFont(){
+            var style = document.createElement("style");
+            style.type = "text/css";
+            style.innerHTML="@import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap'); @import url('https://fonts.googleapis.com/css?family=Aladin&display=swap'); @import url('https://fonts.googleapis.com/css?family=Copse&display=swap')";
+            style.id="addStyle";
+            document.getElementsByTagName("head").item(0).appendChild(style);
+          }
+          addFont();
+          
+          body.style.margin = "0";
+          var overall = document.createElement("div");
+
+          var head = document.createElement("div");
+          
+          var head1 = document.createElement("div");
+          var head2 = document.createElement("div");
+          
+          head.appendChild(head1);
+          head.appendChild(head2);
+
+          var star1 = document.createElement("img");
+          var lg = document.createElement("div");
+
+          lg.innerText = "LG";
+          head.appendChild(lg);
+          lg.style.float = "left";
+          lg.style.clear = "left";
+          lg.style.marginLeft = "45px";
+          lg.style.marginBottom = "-30px";
+          lg.style.fontSize = "7pt";
+          
+          var right = document.createElement("img");
+          
+          
+          var middle = document.createElement("div");
+          var graphs = document.createElement("div");
+          var graph1 = document.createElement("div");
+          var text1 = document.createElement("div");
+          var text2 = document.createElement("div");
+          
+          
+          var graph2 = document.createElement("div");
+          var text3 = document.createElement("div");
+          var text4 = document.createElement("div");
+          
+          
+          var graph3 = document.createElement("div");
+          var text5 = document.createElement("div");
+          var text6 = document.createElement("div");
+          
+          var graph4 = document.createElement("div");
+          var text7 = document.createElement("div");
+          var text8 = document.createElement("div");
+          
+          var textcontainer = document.createElement("div");
+          var pic = document.createElement("div");
+          var pic1 = document.createElement("img");
+          
+          var body1 = document.createElement("div");
+          var body101 = document.createElement("span");
+
+          var body2 = document.createElement("div");
+          var body201 = document.createElement("span");
+
+          var body3 = document.createElement("div");
+          var body301 = document.createElement("span");
+
+          var body4 = document.createElement("div");
+          var body401 = document.createElement("span");
+          var body402 = document.createElement("span");
+          var body5 = document.createElement("div");
+          var body501 = document.createElement("span");
+          var body6 = document.createElement("div");
+          var body601 = document.createElement("span");
+          var body7 = document.createElement("div");
+          var body701 = document.createElement("span");
+          var body8 = document.createElement("div");
+          var body801 = document.createElement("span");
+          var body9 = document.createElement("div");
+          var body901 = document.createElement("span");
+          var body10 = document.createElement("div");
+          var body101 = document.createElement("span");
+          var body11 = document.createElement("div");
+          var body111 = document.createElement("span");
+          var body112 = document.createElement("span");
+          var body12 = document.createElement("div");
+          var body121 = document.createElement("span");
+          var body13 = document.createElement("div");
+          var body131 = document.createElement("span");
+          var body14 = document.createElement("div");
+          var body141 = document.createElement("span");
+          var body15 = document.createElement("div");
+          var body151 = document.createElement("span");
+          var body16 = document.createElement("div");
+          var body161 = document.createElement("span");
+          
+          var footer1 = document.createElement("div");
+          
+          
+          head1.innerHTML = "ANGELS OF";
+          
+          head2.innerHTML = "VENGEANCE";
+          head1.style.marginTop = "10px";
+          head.style.fontFamily = "'Aclonica', sans-serif";
+          head.style.fontSize = "15pt";
+          head.setAttribute("id", "head");
+          star1.style.float = "left";
+          star1.style.clear = "left";
+          star1.src = "star.png";
+
+          star1.style.width = "70px";
+         
+          star1.style.filter = "grayscale(50%)";
+          
+          
+          star1.style.marginTop = "-70px";
+          star1.style.marginLeft = "20px";
+
+          
+          
+          middle.appendChild(pic);
+          pic.appendChild(pic1);
+
+          pic.style.float = "right";
+
+          pic.style.clear = "right";
+          pic.style.width = "40vm";
+          
+          pic.style.margin = "10px";
+          pic1.src = "pic3.png";
+          pic1.style.width = "150px";
+          pic1.style.filter = "grayscale(70%)";
+          
+          right.style.float = "right";
+          right.style.clear = "right";
+          right.src = "ball2.png";
+          right.style.width = "120px";
+          right.style.marginTop = "-73px";
+          right.style.marginRight = "15px";
+          right.style.filter = "grayscale(70%)";
+          right.style.filter = "brightness(2)";
+          
+          
+          body1.innerHTML = "MELEE ATTACK";
+          body1.style.fontWeight = "bold";
+          textcontainer.style.marginTop = "10px";
+          body2.innerHTML = "+24/+19/+14";
+          body2.style.fontWeight = "bold";
+          
+          body3.innerHTML = "(30 magic)";
+          body3.style.fontWeight = "bold";
+          body401.innerHTML = "TYPE: ";
+          body401.style.fontWeight = "bold";
+          body4.style.paddingTop = "12px";
+          body4.style.paddingBottom = "12px";
+          body402.innerHTML = "Large Outsider";
+          body5.innerHTML = "SPECIAL ABILITIES";
+          body5.style.fontWeight = "bold";
+          body6.innerHTML = "Flight";
+          body6.style.fontWeight = "bold";
+          body7.innerHTML = "Blindsight";
+          body7.style.fontWeight = "bold";
+          body8.innerHTML = "DR5";
+          body8.style.fontWeight = "bold";
+          body9.innerHTML = "Fearless";
+          body9.style.fontWeight = "bold";
+          
+          body10.innerHTML = "Melee Reach 2";
+          body10.style.fontWeight = "bold";
+          
+          body111.innerHTML = "Bolstering Presence ";
+          body111.style.fontWeight = "bold";
+          body112.innerHTML = "(Allies within line of sight get morale save +4)";
+          body12.innerHTML = "<b>Word of Truth <span style='text-shadow: 2px 2px black'> ☐ </span> </b> (Replaces attacks: Enemies within <b>2</b> squares takes <b>40</b> sonic damage and are stunned; DC <b>22</b>)";
+
+
+          
+          body13.innerHTML = "<b>Back in Action <span style='text-shadow: 2px 2px black'> ☐ </span> </b> (Immediate: <b>1</b> attempt to rally a creature automatically succeeds)";
+          
+          body14.innerHTML = "Spell Resistance";
+          body14.style.fontWeight = "bold";
+          
+          body15.innerHTML = "Smite Evil +10 <span style='text-shadow: 2px 2px black'> ☐ </span> <span style='text-shadow: 2px 2px black'> ☐ </span>";
+          body15.style.fontWeight = "bold";
+          
+          body16.innerHTML = "<b>Righteous Retribution</b> (Evil creatures within <b>2</b> squares take <b>+5</b> damage whenever they take take damage from any source)";
+
+    
+          
+          body.appendChild(overall);
+          overall.appendChild(head);
+          head.appendChild(star1);
+          
+          head.appendChild(right);
+
+          
+          overall.appendChild(middle);
+          middle.appendChild(graphs);
+
+          graphs.style.float = "left";
+          graphs.style.clear = "left";
+          graphs.style.fontSize = "120%";
+          graphs.style.color = "#FFFFFF";
+          
+          
+          graphs.appendChild(graph1);
+          
+          
+          
+          graph1.setAttribute("id", "graph1");
+          text1.innerText = "LEVEL";
+          text2.innerText = "14";
+          graph1.style.float = "left";
+          graph1.style.clear = "left";
+          graph1.style.width = "60px";
+          graph1.style.padding = "10px";
+          graph1.style.textAlign = "center";
+          graph1.style.backgroundColor = "rgb(15, 62, 98)";
+          graph1.style.marginTop = "0px";
+          graph1.style.marginBottom = "5px";
+          graph1.style.fontFamily = "'Aladin', cursive";
+          graph1.style.borderRadius = "0px 20px 0px 0px"
+          
+          graphs.appendChild(graph2);
+          
+          
+          text3.innerText = "SPEED";
+          text4.innerText = "F6";
+          graph2.style.float = "left";
+          graph2.style.clear = "left";
+          graph2.style.padding = "10px";  
+          graph2.style.backgroundColor = "rgb(15, 62, 98)";
+          graph2.style.textAlign = "center";
+          graph2.style.width = "60px";
+          
+          graph2.style.marginTop = "5px";
+          graph2.style.marginBottom = "5px";
+          graph2.style.fontFamily = "'Aladin', cursive";
+          
+          graphs.appendChild(graph3);
+          text5.innerText = "AC";
+          text6.innerText = "26";
+
+          graph3.style.padding = "10px";
+          graph3.style.backgroundColor = "rgb(15, 62, 98)";
+          graph3.style.textAlign = "center";
+          graph3.style.width = "60px";
+          graph3.style.float = "left";
+          graph3.style.clear = "left";
+          
+          graph3.style.marginTop = "5px";
+          graph3.style.marginBottom = "5px";
+          
+          graph3.style.fontFamily = "'Aladin', cursive";
+          
+          graphs.appendChild(graph4);       
+          text7.innerText = "HP";
+          text8.innerText = "210";
+
+          graph4.style.padding = "10px";
+          graph4.style.backgroundColor = "rgb(15, 62, 98)";
+          graph4.style.textAlign = "center";
+          graph4.style.width = "60px";
+          graph4.style.float = "left";
+          graph4.style.clear = "left";
+          
+          graph4.style.marginTop = "5px";
+          graph4.style.fontFamily = "'Aladin', cursive";
+          
+          graph1.appendChild(text1);
+          graph1.appendChild(text2);
+          graph2.appendChild(text3);
+          graph2.appendChild(text4);
+          
+          graph3.appendChild(text5);
+          graph3.appendChild(text6);
+          
+          graph4.appendChild(text7);
+          graph4.appendChild(text8);
+          
+          
+          middle.appendChild(textcontainer);
+          textcontainer.style.paddingLeft = "90px";
+          textcontainer.appendChild(body1);
+          textcontainer.appendChild(body2);
+          textcontainer.appendChild(body3);
+          textcontainer.appendChild(body4);
+          body4.appendChild(body401);
+          body4.appendChild(body402);
+          textcontainer.appendChild(body5);
+          textcontainer.appendChild(body6);
+          textcontainer.appendChild(body7);
+          textcontainer.appendChild(body8);
+          textcontainer.appendChild(body9);
+          textcontainer.appendChild(body10);
+          textcontainer.appendChild(body11);
+          
+          body11.appendChild(body111);
+          body11.appendChild(body112);
+          textcontainer.appendChild(body12);
+          textcontainer.appendChild(body13);
+          textcontainer.appendChild(body14);
+          textcontainer.appendChild(body15);
+          textcontainer.appendChild(body16);
+          textcontainer.style.fontFamily = "'Copse', serif";
+          body.appendChild(footer1);
+
+          
+         
+          
+            var top = document.getElementById("head");
+            top.style.margin = "0px";
+            top.style.color = "#FFFFFF";
+            top.style.textAlign = "center";
+            top.style.height = "40px";
+            top.style.paddingBottom = "30px";
+            top.style.paddingTop = "30px";
+            top.style.backgroundColor = "rgb(15, 62, 98)";
+            top.style.borderBottomStyle = "solid";
+            top.style.borderBottomColor = "grey";
+            top.style.borderTopStyle = "solid";
+            top.style.borderTopColor = "rgb(88.2, 66.3, 37.3)";
+            top.style.borderTopWidth = "10px";
+          
+            
+            var g1 = document.getElementById("graph1");
+            g1.style.backgroundColor = "rgb(15, 62, 98)";
+
+            footer1.innerHTML = "Dungeons of Dragons";
+            footer1.style.fontFamily = "'Aclonica', sans-serif";
+            footer1.style.textAlign = "center";
+            footer1.style.backgroundColor = "rgb(15, 62, 98)";
+            footer1.style.padding = "7px";
+            footer1.style.color = "#FFFFFF";
+            footer1.style.marginTop = "7px";
+          
+          body.style.backgroundImage = "url('background.jpg')";
+ 
+        }
+
+
+        DND();
+
+
+    </script>
+
+  </body>
+</html>
